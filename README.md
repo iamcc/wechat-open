@@ -1,6 +1,6 @@
 # 微信 Open 平台 SDK
 
-![build:](https://travis-ci.org/iamcc/wechat-open.svg)
+[![Build Status](https://travis-ci.org/iamcc/wechat-open.svg?branch=master)](https://travis-ci.org/iamcc/wechat-open)
 
 ## 使用
 ```
