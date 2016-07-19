@@ -1,0 +1,42 @@
+{
+  "name": "wechat-open",
+  "version": "0.0.1",
+  "description": "微信 Open 平台 SDK",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "ava",
+    "test:cov": "nyc ava",
+    "report": "nyc ava && nyc report --reporter=html"
+  },
+  "keywords": [
+    "wechat",
+    "open",
+    "sdk",
+    "es6"
+  ],
+  "author": "sic.hcq@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015-node": "^6.1.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.1.0",
+    "eslint-config-airbnb-base": "^4.0.2",
+    "eslint-plugin-import": "^1.11.0",
+    "fetch-mock": "^5.0.1",
+    "nyc": "^7.0.0",
+    "sinon": "^1.17.4"
+  },
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "babel-core/register"
+    ]
+  }
+}
