@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint lib",
-    "test": "ava",
-    "test:cov": "nyc ava",
-    "report": "nyc ava && nyc report --reporter=html"
+    "test": "nyc ava",
+    "report": "nyc ava && nyc report --reporter=html",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
     "wechat",
@@ -26,6 +26,7 @@
     "babel-eslint": "^6.1.2",
     "babel-preset-es2015-node": "^6.1.0",
     "babel-preset-stage-0": "^6.5.0",
+    "coveralls": "^2.11.11",
     "eslint": "^3.1.0",
     "eslint-config-airbnb-base": "^4.0.2",
     "eslint-plugin-import": "^1.11.0",
