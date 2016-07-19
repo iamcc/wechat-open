@@ -1,5 +1,7 @@
 # 微信 Open 平台 SDK
 
+![build:](https://travis-ci.org/iamcc/wechat-open.svg)
+
 ## 使用
 ```
 const opts = { appId, appSecret, verifyTicket };
